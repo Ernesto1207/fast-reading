@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fast_Reading.HistoriaPeruana">
+    <ContentPage.Content>
+        <StackLayout Margin="25" VerticalOptions="Center">
+            <Label Text="HISTORIA DEL PERÚ"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Sabios llamados Amautas enséñaban a la nobleza en escuelas públicas las máximas de la guerra, las practicas del gobierno, las ceremonias de la religión, la lengua general, los equipos, la historia de los Incas, algo de las bellas artes, Medicina y astronomía , en suma las nociones precisas para los cargos políticos, militares, religiosos y para dominar al pueblo por su superior cultura"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
