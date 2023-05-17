@@ -2,11 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Fast_Reading.LiteraturaPeruana">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Literatura Peruana!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Margin="25"
+                     BackgroundColor="#E0FFFF"
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="LITERATURA DEL PERÚ"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="Épocas y Corrientes Literarias:"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text= " I) Literatura Quechua."
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text=" II) Literatura de la Conquista (1527 - 1542)."
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text=" III) Literatura Colonial o Virreynal (1542 - 1780)."
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text=" IV) Literatura de la Emancipación (1780 - 1824)"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
         </StackLayout>
-    </ContentPage.Content>
+    </StackLayout>
 </ContentPage>

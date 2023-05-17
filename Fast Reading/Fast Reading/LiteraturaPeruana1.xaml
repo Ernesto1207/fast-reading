@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fast_Reading.LiteraturaPeruana1">
+    
+    
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Margin="25"
+                     BackgroundColor="#ffb6c1"
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="Literatura Quechua:"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="* Es oral:
+	Los relatos, canciones y poesías que expresan las hazañas, vivencias, costumbres
+	de los pueblos se iban transmitiendo de generación a generación."
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="* Es agrarista y colectiva:
+	Una de las principales fuentes de inspiración fueron las actividades derivadas
+	de la agricultura y la ganadería. Los haravicus y amautas compusieron obras
+	para rendirle culto a la mamapacha. Reflejaban el sentir de los ayllus o pueblos."
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="* Es clasista:
+	La organización social del imperio incaico trajo 02 tipos de Literatura:"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="- La Literatura Oficial."
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="- La Literatura Popular."
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

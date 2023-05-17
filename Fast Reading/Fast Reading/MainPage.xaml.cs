@@ -10,6 +10,7 @@ namespace Fast_Reading
 
         public MainPage()
         {
+            Title = "Fast Reading";
             InitializeComponent();
         }
 

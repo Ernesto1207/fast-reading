@@ -9,19 +9,19 @@ using Xamarin.Forms.Xaml;
 
 namespace Fast_Reading
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LiteraturaPeruana : ContentPage
-	{
-		public LiteraturaPeruana ()
-		{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class LiteraturaPeruana1 : ContentPage
+    {
+        public LiteraturaPeruana1()
+        {
             Title = "Literatura del Perú";
-            InitializeComponent ();
+            InitializeComponent();
             StartDelay();
         }
         private async void StartDelay()
         {
-            await Task.Delay(10000); // Esperar 10 segundos
-            await Navigation.PushAsync(new PreguntaLiteratura());
+            await Task.Delay(15000); // Esperar 15[ segundos
+            await Navigation.PushAsync(new PreguntaLiteratura1());
         }
     }
 }

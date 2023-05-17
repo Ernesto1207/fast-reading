@@ -5,62 +5,81 @@
              mc:Ignorable="d" 
              x:Class="Fast_Reading.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="#000000">
+        
+        <Grid x:Name="ruleta"
+              WidthRequest="500"
+              HeightRequest="500"
+              HorizontalOptions="CenterAndExpand"
+              VerticalOptions="CenterAndExpand">
 
-        <Frame CornerRadius="100" WidthRequest="190" HeightRequest="190">
-            <Grid x:Name="ruleta"
-                  WidthRequest="200"
-                  HeightRequest="200"
-                  HorizontalOptions="CenterAndExpand"
-                  VerticalOptions="CenterAndExpand">
-
-                <!-- Celda para la opción 1 -->
-                <Grid Grid.Column="0"
+            <!-- Celda para la opción 1 -->
+            <Grid Grid.Column="0"
                       Grid.Row="0"
-                      BackgroundColor="Red">
-                    <Label Text="Literatura Peruana"
-                           VerticalTextAlignment="Center"
-                           TextColor="White"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center" />
-                </Grid>
-
-                <!-- Celda para la opción 2 -->
-                <Grid Grid.Column="1"
-                      Grid.Row="0"
-                      BackgroundColor="Green">
-                    <Label Text="Historia Peruana"
-                           VerticalTextAlignment="Center"
-                           TextColor="White"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center" />
-                </Grid>
-
-                <!-- Celda para la opción 3 -->
-                <Grid Grid.Column="0"
-                      Grid.Row="1"
-                      BackgroundColor="Blue">
-                    <Label Text="Geografia"
-                           VerticalTextAlignment="Center"
-                           TextColor="White"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center" />
-                </Grid>
-
+                      BackgroundColor="#7FFF00">
+                <Label Text="Literatura
+                       Peruana"
+                       Margin="50"
+                       FontAttributes="Bold"
+                       FontSize="30"
+                       VerticalTextAlignment="Center"
+                       TextColor="#000000"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
             </Grid>
-            
-            
-            
-        </Frame>
+
+            <!-- Celda para la opción 2 -->
+            <Grid Grid.Column="1"
+                      Grid.Row="0"
+                      BackgroundColor="#00FFFF">
+                <Label Text="Historia Peruana"
+                       Margin="50"
+                       FontAttributes="Bold"
+                       FontSize="30"
+                       VerticalTextAlignment="Center"
+                       TextColor="#000000"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Grid>
+
+            <!-- Celda para la opción 3 -->
+            <Grid Grid.Column="0"
+                      Grid.Row="1"
+                      BackgroundColor="#FF1493">
+                <Label Text="Geografia"
+                       Margin="50"
+                       FontAttributes="Bold"
+                       FontSize="30"
+                       VerticalTextAlignment="Center"
+                       TextColor="#000000"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Grid>
+            <!-- Celda para la opción 4 -->
+            <Grid Grid.Column="1"
+                      Grid.Row="1"
+                      BackgroundColor="#FFD700">
+                <Label Text="Psicologia"
+                       Margin="50"
+                       FontAttributes="Bold"
+                       FontSize="28"
+                       VerticalTextAlignment="Center"
+                       TextColor="#000000"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Grid>
+
+        </Grid>
 
         <Button Text="Girar" 
+                BackgroundColor="#F4A460"
+                FontAttributes="Bold"
                 Clicked="Girar_Clicked" 
+                VerticalOptions="End"
                 FontSize="Large" 
                 Margin="0,40,0,0" 
                 HorizontalOptions="Center"
          />
-
-
     </StackLayout>
 
 </ContentPage>

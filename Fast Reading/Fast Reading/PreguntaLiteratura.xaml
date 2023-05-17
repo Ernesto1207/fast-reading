@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fast_Reading.PreguntaLiteratura">
+
+    <StackLayout BackgroundColor="Black">
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+            <Label Text="¿Cuántas corrientes tiene la Literatura Peruana?" 
+                   FontSize="Large"
+                   TextColor="Black"
+                   BackgroundColor="#7CFC00"
+                   FontFamily="25"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,20"/>
+
+            <StackLayout x:Name="opcionesStackLayout" 
+                         Orientation="Vertical" 
+                         Spacing="10"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Button x:Name="opcionA" 
+                        Text="Opción A" 
+                        Clicked="Comprobar_Clicked" 
+                        Margin="0,0,0,10"
+                        TextColor="Black"
+                        FontFamily="25"
+                        BackgroundColor="#ffdab9"
+                        FontAttributes="Bold"/>
+
+                <Button x:Name="opcionB" 
+                        Text="Opción B" 
+                        Clicked="Comprobar_Clicked" 
+                        Margin="0,0,0,10"
+                        TextColor="Black"
+                        FontFamily="25"
+                        BackgroundColor="#f0e68c"
+                        FontAttributes="Bold"/>
+                
+                <Button x:Name="opcionC" 
+                        Text="Opción C" 
+                        Clicked="Comprobar_Clicked" 
+                        Margin="0,0,0,10"
+                        TextColor="Black"
+                        FontFamily="25"
+                        BackgroundColor="#e6e6fa"
+                        FontAttributes="Bold"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
