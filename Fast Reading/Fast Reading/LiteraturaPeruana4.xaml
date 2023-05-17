@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fast_Reading.LiteraturaPeruana4">
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Margin="25"
+                     BackgroundColor="#ADD8E6"
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="LITERATURA DEL PERÚ"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="III) Literatura Colonial o Virreynal (1542 - 1780):"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"                   
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text= "Llamada Literatura Hispánica, se inicia en 1542"                           
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="Instauración el 1er Virreynato del Perú y se prolongó hasta fines del S. XVIII.:"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="Etapas:"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="a) Etapa Clásica"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="b) Etapa Gongorista o Culterana"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="Etapa de Afrancesamiento"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

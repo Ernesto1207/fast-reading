@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fast_Reading.LiteraturaPeruana2">
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Margin="25"
+                     BackgroundColor="#FFD700"
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="LITERATURA DEL PERÚ"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="Géneros de Literatura Quechua:"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"                   
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text= " I) La épica"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text=" II)La lírica"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text=" III) El teatro"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text=" IV) Tragedia"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text=" V) Comedia"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -10,15 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace Fast_Reading
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PreguntaLiteratura1 : ContentPage
+    public partial class PreguntaLiteratura3 : ContentPage
     {
         private List<string> opciones = new List<string>()
         {
-            "La Mamapacha",
-            "Los Ayllus",
-            "El Sol"
+            "El Español",
+            "El Quechua",
+            "El Aymara"
         };
-        public PreguntaLiteratura1()
+        public PreguntaLiteratura3()
         {
             Title = "Literatura del Perú";
             InitializeComponent();
@@ -51,7 +51,7 @@ namespace Fast_Reading
                 var result = await DisplayAlert("¡Correcto!", "Has acertado", "Seguir Jugando", "Volver a la ruleta");
                 if (result)
                 {
-                   await Navigation.PushAsync(new LiteraturaPeruana2());
+                    await Navigation.PushAsync(new LiteraturaPeruana4());
                 }
                 else
                 {
@@ -65,7 +65,7 @@ namespace Fast_Reading
 
                 if (result)
                 {
-                    await Navigation.PushAsync(new LiteraturaPeruana2());
+                    await Navigation.PushAsync(new LiteraturaPeruana4());
                 }
                 else
                 {
@@ -75,3 +75,4 @@ namespace Fast_Reading
         }
     }
 }
+

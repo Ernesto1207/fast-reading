@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fast_Reading.LiteraturaPeruana3">
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Margin="25"
+                     BackgroundColor="#90EE90"
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="LITERATURA DEL PERÚ"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="II) Literatura de la Conquista (1527 - 1542):"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"                   
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text= "Realizada la conquista, los españoles destruyen la estructura del Imperio Incaico. Imponen una nueva orientación a la vida obstruyendo el desarrollo normal de la cultura nativa. La lengua oficial es ahora Español y la Literatura Español encuentra eco en algunos peruanos. Aparecen las Coplas y los Romances  y luego las Crónicas"                           
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="La primera muestra literaria peruana es una copla. La primera data del 1527, fue escrita por eel soldado Juan de Saravia y dirigida al gobernador de Panamá don Pedro de los Ríos. Dice así:"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="Pues Señor Gobernador"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="mírelo bien por entero"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="que allá va el recogedor"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="y acá queda el carnicero"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            
+        </StackLayout>
+    </StackLayout>
+        
+</ContentPage>

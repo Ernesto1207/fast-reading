@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fast_Reading.PreguntaLiteratura3">
+    <StackLayout BackgroundColor="Black">
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+            <Label Text="Después de la Conquista ¿Cuál fue la lengua oficial?" 
+                   FontSize="Large"
+                   TextColor="Black"
+                   BackgroundColor="#e6e6fa"
+                   FontFamily="25"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,20"/>
+
+            <StackLayout x:Name="opcionesStackLayout" 
+                         Orientation="Vertical" 
+                         Spacing="10"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Button x:Name="opcionA" 
+                        Text="Opción A" 
+                        Clicked="Comprobar_Clicked" 
+                        Margin="0,0,0,10"
+                        TextColor="Black"
+                        FontFamily="25"
+                        BackgroundColor="#B0E0E6"
+                        FontAttributes="Bold"/>
+
+                <Button x:Name="opcionB" 
+                        Text="Opción B" 
+                        Clicked="Comprobar_Clicked" 
+                        Margin="0,0,0,10"
+                        TextColor="Black"
+                        FontFamily="25"
+                        BackgroundColor="#FFC0CB"
+                        FontAttributes="Bold"/>
+
+                <Button x:Name="opcionC" 
+                        Text="Opción C" 
+                        Clicked="Comprobar_Clicked" 
+                        Margin="0,0,0,10"
+                        TextColor="Black"
+                        FontFamily="25"
+                        BackgroundColor="#98FB98"
+                        FontAttributes="Bold"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
